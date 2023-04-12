@@ -1316,6 +1316,10 @@ a {
     justify-content: center;
   }
 
+  .language-selection-container {
+    display: none;
+  }
+
   .hero-logo {
     height: 30px;
   }
