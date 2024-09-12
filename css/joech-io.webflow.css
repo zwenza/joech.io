@@ -148,12 +148,21 @@ a {
   position: relative;
 }
 
+.work-avocation-image-container.ohsketch {
+  padding-left: 60px;
+}
+
 .div-block-2 {
   flex-direction: column;
   flex: 1;
   padding-top: 40px;
   padding-bottom: 40px;
+  padding-left: 40px;
   display: flex;
+}
+
+.div-block-2.ohsketch {
+  padding-right: 40px;
 }
 
 .work-avocation-description-awards-container {
@@ -212,7 +221,7 @@ a {
 }
 
 .image-app.moodmonk {
-  max-height: 600px;
+  max-height: 500px;
   left: 0;
 }
 
@@ -317,6 +326,12 @@ a {
   border-radius: 0;
   max-width: 1400px;
   margin-left: auto;
+}
+
+.work-moodmonk-container.ohsketch {
+  background-color: #f57a56;
+  border-radius: 0;
+  padding-right: 0;
 }
 
 .work-webdesign-container {
@@ -691,6 +706,17 @@ a {
     display: block;
   }
 
+  .work-avocation-image-container.ohsketch {
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+  }
+
+  .image-app.moodmonk {
+    max-height: 500px;
+    left: auto;
+  }
+
   .work-more-content-container {
     width: 90%;
   }
@@ -698,6 +724,12 @@ a {
   .work-moodmonk-container.moodmonk {
     width: 100%;
     max-width: none;
+  }
+
+  .work-moodmonk-container.ohsketch {
+    border-radius: 0;
+    padding-left: 140px;
+    padding-right: 0;
   }
 
   .work-webdesign-grid {
@@ -771,6 +803,13 @@ a {
     overflow: visible;
   }
 
+  .work-avocation-image-container.ohsketch {
+    flex: 1;
+    min-width: 650px;
+    padding-left: 0;
+    display: block;
+  }
+
   .div-block-2 {
     flex: none;
     max-width: 500px;
@@ -791,6 +830,7 @@ a {
   }
 
   .image-app.moodmonk {
+    display: block;
     left: 0;
   }
 
@@ -829,6 +869,17 @@ a {
     border-radius: 50px;
     width: 100%;
     max-width: 1300px;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .work-moodmonk-container.ohsketch {
+    border-radius: 50px;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    max-width: 1400px;
+    overflow: hidden;
   }
 
   .work-webdesign-container {
@@ -955,6 +1006,10 @@ a {
     display: none;
   }
 
+  .div-block-2 {
+    padding-left: 0;
+  }
+
   .work-more-container {
     flex-direction: column;
     margin-top: 60px;
@@ -981,6 +1036,11 @@ a {
   .footer {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .work-moodmonk-container.ohsketch {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .work-webdesign-grid {
@@ -1263,6 +1323,11 @@ a {
 
   .work-moodmonk-container.moodmonk {
     padding: 0 20px;
+  }
+
+  .work-moodmonk-container.ohsketch {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .work-webdesign-container {
