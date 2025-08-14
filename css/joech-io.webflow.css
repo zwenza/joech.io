@@ -1,3 +1,123 @@
+@font-face {
+  font-family: Plusjakartatext;
+  src: url('../fonts/PlusJakartaText-Italic.ttf') format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Plusjakartadisplay;
+  src: url('../fonts/PlusJakartaDisplay-Bold.ttf') format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Plusjakartatext;
+  src: url('../fonts/PlusJakartaText-LightItalic.ttf') format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Plusjakartatext;
+  src: url('../fonts/PlusJakartaText-Bold.ttf') format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Plusjakartadisplay;
+  src: url('../fonts/PlusJakartaDisplay-MediumItalic.ttf') format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Plusjakartatext;
+  src: url('../fonts/PlusJakartaText-Regular.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Plusjakartadisplay;
+  src: url('../fonts/PlusJakartaDisplay-Light.ttf') format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Plusjakartadisplay;
+  src: url('../fonts/PlusJakartaDisplay-Italic.ttf') format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Plusjakartadisplay;
+  src: url('../fonts/PlusJakartaDisplay-BoldItalic.ttf') format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Plusjakartatext;
+  src: url('../fonts/PlusJakartaText-BoldItalic.ttf') format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Plusjakartatext;
+  src: url('../fonts/PlusJakartaText-Light.ttf') format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Plusjakartadisplay;
+  src: url('../fonts/PlusJakartaDisplay-Medium.ttf') format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Plusjakartadisplay;
+  src: url('../fonts/PlusJakartaDisplay-LightItalic.ttf') format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Plusjakartadisplay;
+  src: url('../fonts/PlusJakartaDisplay-Regular.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vollkorn Self;
+  src: url('../fonts/Vollkorn-VariableFont_wght.ttf') format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --burntsienna: #e17055;
   --sandy-brown: #faa447;
@@ -152,6 +272,13 @@ a {
   padding-left: 60px;
 }
 
+.work-avocation-image-container.cappymind {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 .div-block-2 {
   flex-direction: column;
   flex: 1;
@@ -225,6 +352,15 @@ a {
   left: 0;
 }
 
+.image-app.cappymind {
+  max-height: 500px;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block;
+  bottom: auto;
+  right: auto;
+}
+
 .work-avocation-link-container {
   align-items: center;
   margin-top: 40px;
@@ -241,6 +377,10 @@ a {
 
 .work-avocation-link.moodmonk {
   color: #fcbb6f;
+}
+
+.work-avocation-link.cappymind {
+  color: #cc6e26;
 }
 
 .work-avocation-link-text {
@@ -332,6 +472,12 @@ a {
   background-color: #f57a56;
   border-radius: 0;
   padding-right: 0;
+}
+
+.work-moodmonk-container.cappymind {
+  background-color: #efb77f;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .work-webdesign-container {
@@ -732,6 +878,11 @@ a {
     padding-right: 0;
   }
 
+  .work-moodmonk-container.cappymind {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
   .work-webdesign-grid {
     max-width: none;
   }
@@ -808,6 +959,10 @@ a {
     min-width: 650px;
     padding-left: 0;
     display: block;
+  }
+
+  .work-avocation-image-container.cappymind {
+    min-width: 400px;
   }
 
   .div-block-2 {
@@ -1264,6 +1419,10 @@ a {
   .work-avocation-container {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .work-avocation-image-container.cappymind {
+    display: none;
   }
 
   .work-avocation-description-awards-container {
